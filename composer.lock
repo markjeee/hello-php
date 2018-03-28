@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "b1021e4a2916199c771d40debb0448a5",
+    "content-hash": "b1a2966ea72c163ff2dfbfa84666a05c",
     "packages": [
         {
             "name": "components/bootstrap",
@@ -1121,7 +1121,7 @@
             "version": "2.1.2-alpha.9",
             "dist": {
                 "type": "zip",
-                "url": "https://php.fury.io/markjeee/~/d/markjeee%2Fsculpin/markjeee%2Fsculpin-2.1.2-alpha.9",
+                "url": "https://repo.markjeee.com/php/~/d/markjeee%2Fsculpin/markjeee%2Fsculpin-2.1.2-alpha.9",
                 "reference": null,
                 "shasum": null
             },

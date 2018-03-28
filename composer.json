@@ -18,7 +18,7 @@
     "repositories": [
       {
         "type": "composer",
-        "url": "https://php.fury.io/markjeee/"
+        "url": "https://repo.markjeee.com/php/"
       }
     ],
     "require": {
