@@ -4,39 +4,45 @@
     "type": "sculpin-skeleton",
     "license": "MIT",
     "authors": [
-        {
-            "name": "Dragonfly Development Inc.",
-            "email": "info@dflydev.com",
-            "homepage": "http://dflydev.com"
-        },
-        {
-            "name": "Beau Simensen",
-            "email": "beau@dflydev.com",
-            "homepage": "http://beausimensen.com"
-        }
+      {
+        "name": "Dragonfly Development Inc.",
+        "email": "info@dflydev.com",
+        "homepage": "http://dflydev.com"
+      },
+      {
+        "name": "Beau Simensen",
+        "email": "beau@dflydev.com",
+        "homepage": "http://beausimensen.com"
+      }
+    ],
+    "repositories": [
+      {
+        "type": "composer",
+        "url": "https://php.fury.io/markjeee/"
+      }
     ],
     "require": {
-	  "sculpin/sculpin": "^2.1@dev",
-	  "dflydev/embedded-composer": "^1.0@dev",
+      "markjeee/sculpin": "^2.1@dev",
+      "dflydev/embedded-composer": "^1.0@dev",
       "kriswallsmith/assetic": "1.1.2",
       "components/bootstrap": "^3.3",
       "components/jquery": "^3.1",
       "components/highlightjs": "^9.7"
     },
     "config": {
-        "component-dir": "source/components",
-        "components": [
-            "components/bootstrap",
-            "components/jquery",
-            "components/highlightjs"
-        ]
+      "component-dir": "source/components",
+      "components": [
+        "components/bootstrap",
+        "components/jquery",
+        "components/highlightjs"
+      ]
     },
     "scripts": {
-        "post-install-cmd": [
-            "ComponentManager\\ComponentManager::postComposerInstall"
-        ]
+      "post-install-cmd": [
+        "ComponentManager\\ComponentManager::postComposerInstall"
+      ]
     },
     "autoload": {
-        "classmap": ["component-manager.php"]
+      "classmap": ["component-manager.php"]
     }
 }
